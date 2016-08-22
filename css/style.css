@@ -1,0 +1,502 @@
+*{
+    font-family: "Trebuchet MS",  "Lucida Sans Unicode", "Lucida Sans";
+}
+
+header {
+    height: 365px;
+    background-image: url(/img/top-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+    padding: 1px 0;
+    position: relative;
+}
+
+section {
+    position: relative;
+}
+
+.logo-wp {
+    width: 350px;
+    margin: auto;
+    margin-top: 23px;
+}
+
+p.logo-pre-header {
+    text-align: center;
+    font-size: 23px;
+    line-height: 20px;
+    margin: 15px 0;
+    color: #94c01b;
+    text-shadow: 0 0 4px #4b610f;
+}
+
+.logo-header {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    line-height: 40px;
+    text-shadow: 0 0 10px #999;
+}
+
+.contacts-area {
+    position: absolute;
+    top: 80px;
+    right: 14px;
+    width: 212px;
+    border-radius: 7px;
+    padding: 11px 20px;
+    background: rgba(51, 51, 51, 0.5);
+    text-align: center;
+}
+
+.contacts-area p {
+    margin: 0;
+    color: #fff;
+    text-shadow: 1px 2px 3px #333;
+}
+
+p.contacts-area-phone {
+    font-size: 23px;
+}
+
+p.contacts-area-phone:nth-child(2) {
+    text-align: center;
+}
+
+p.contacts-area-address {
+    margin-top: 5px;
+}
+
+.blue-btn {
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: none;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#53d3e8+0,1e5799+100 */
+    background: #53d3e8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #53d3e8 0%, #1e5799 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #53d3e8 0%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #53d3e8 0%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53d3e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+    padding: 3px 20px;
+    border: 1px solid rgba(46, 126, 178, 0.68) !important;
+}
+
+a.contacts-area-btn.blue-btn {
+    margin-top: 20px;
+    display: block;
+    font-size: 17px;
+}
+
+a.contacts-area-btn.blue-btn {}
+
+.header-prolog {
+    color: #fff;
+    text-align: center;
+    font-size: 34px;
+    margin-left: 86px;
+    margin-top: 35px;
+}
+
+.grey-bg {
+    background-color: #f2f2f2;
+}
+
+.content.preOffers {
+    margin-top: 47px;
+}
+
+.content.preOffers p {
+    font-size: 23px;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    line-height: 28px;
+    color: #0092ca;
+}
+
+p.headers {
+    text-align: center;
+    font-size: 29px;
+    color: #0092ca;
+    padding: 0;
+    margin: 6px 0;
+    font-weight: bold;
+}
+
+.slider-wp {
+    position: relative;
+    width: 935px;
+    margin: auto;
+    margin-top: 58px;
+}
+
+.slider-item {
+    height: 432px;
+    width: 935px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider-frame {
+    position: relative;
+}
+
+.slider-frame:before {
+    content: '';
+    display: block;
+    background: url('/img/slide-shadow-l.png');
+    width: 393px;
+    height: 36px;
+    position: absolute;
+    bottom: -18px;
+    z-index: -1;
+}
+
+.slider-frame:after {
+    content: '';
+    display: block;
+    background: url('/img/slide-shadow-r.png');
+    width: 393px;
+    height: 36px;
+    position: absolute;
+    bottom: -18px;
+    right:0;
+    z-index: -1;
+}
+
+.slider-control {
+    position: absolute;
+    top: 50%;
+    pointer-events: none;
+    margin-top: -21px;
+    left: 0;
+    right: 0;
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 29px;
+}
+
+
+.slider-control .next {
+    position: absolute;
+    pointer-events: visible;
+    cursor: pointer;
+    height: 42px;
+    width: 42px;
+    background: rgba(51, 51, 51, 0.81);
+    border-radius: 26px;
+    right: 10px;
+    padding-left: 9px;
+}
+
+
+.slider-control .prev {
+    position: absolute;
+    pointer-events: visible;
+    cursor: pointer;
+    height: 42px;
+    width: 42px;
+    background: rgba(51, 51, 51, 0.81);
+    border-radius: 26px;
+    left: 10px;
+    padding-left: 3px;
+}
+
+.slider-control > *{
+    transition: all 0.4s ease-out;
+}
+
+.slider-control > *:hover{
+    color: #fff;
+    box-shadow: 0 0 10px #353535;
+}
+
+.form-feed-wp.doted-form {border: 1px dashed #888;padding: 32px 18px 20px;border-radius: 5px;width: 315px;margin: auto;}
+
+.form-feed {
+    
+}
+
+.form-feed input {
+    border: none;
+}
+
+.class-shadow-form {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 7px;
+    border-radius: 8px;
+}
+
+form.form-order input[type="submit"] {
+    margin-top: 32px;
+    display: block;
+    font-size: 20px;
+    width: 100%;
+}
+.class-shadow-form > div > label{
+    margin-left: 10px
+}
+.class-shadow-form > div {
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    color: #999;
+    padding: 8px 0 3px;
+}
+
+.class-shadow-form > div:last-child {
+    border-bottom: none ;
+}
+.class-shadow-form > div >div > input {
+    color: #444;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+    background: none;
+}
+
+.benefits {
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    background-image: url('/img/benefits-bg.png');
+    background-repeat: no-repeat;
+    background-position: 215px 100px;
+}
+
+.benefit-block {
+    width: 215px;
+    float: right;
+    text-align: center;
+}
+
+.benefits > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits > div:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    width: 693px;
+    margin: auto;
+    margin-top: 47px;
+}
+
+.benefit-image {
+    height: 215px;
+    width: 215px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#bi1 .benefit-image {
+    background-image: url('/img/benefit-1.png')
+}
+
+#bi2 .benefit-image {
+    background-image: url('/img/benefit-2.png')
+}
+
+#bi3 .benefit-image {
+    background-image: url('/img/benefit-3.png')
+}
+
+#bi4 .benefit-image {
+    background-image: url('/img/benefit-4.png');
+}
+
+#bi5 .benefit-image {
+    background-image: url('/img/benefit-5.png')
+}
+
+p.benefit-header {
+    color: #0092ca;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+p.benefit-description {
+    color: #0092ca;
+    margin-top: 2px;
+    font-size: 19px;
+    line-height: 19px;
+}
+
+p.header-underline {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 18px;
+    color: #0092ca;
+    margin: 0;
+    margin-top: 21px;
+    margin-bottom: 50px;
+    background-image: url('/img/line-bottom.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+p.header-underline {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 18px;
+    color: #0092ca;
+    margin: 0;
+    margin-top: 21px;
+    margin-bottom: 50px;
+    background-image: url('/img/line-bottom.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.plan-image {
+    width: 326px;
+    height: 460px;
+    background-image: url('/img/plan.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 2px #989898;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.plan-image:before,
+.plan-image:after {
+    content: '';
+    transition: background 0.4s ease-out;
+}
+
+.plan-image:hover:before {
+    content: '';
+    display: block;
+    background: rgba(51, 51, 51, 0.53);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.plan-image:hover:after {
+    content: '';
+    display: block;
+    background: url('/img/zoom.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.double-blue-line {
+    border-top: 1px dashed #0092ca;
+    height: 5px;
+    border-bottom: 1px dashed #0092ca;
+}
+
+.col-sm-6.deal-text p {
+    color: #0092ca;
+    font-size: 20px;
+}
+
+.col-sm-6.deal-text p b {
+    font-size: 28px;
+}
+
+.deal-text .blue-btn{
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    width: 280px;
+    margin-top: -10px;
+}
+
+.aboutCompany ul {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutCompany ul li{
+    list-style: none;
+    margin: 6px 0;
+}
+
+
+.aboutCompany ul li:before{
+    content: ' \2014 \2002 '
+}
+
+.row.aboutCompany {
+    margin-top: 63px;
+}
+
+.blue-bordered {
+    border: 1px dashed #0092ca;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #0092ca;
+    width: 380px;
+}
+
+
+footer {
+    background-image: url('/img/footer.png');
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+p.sales-info {
+    text-align: right;
+}
+
+.footer-phone {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #007c00;
+}
+
+.footer-phone p {
+    margin: 0;
+}
+
+p.header-text {
+    font-size: 20px;
+}
+
+.photo-worker {background-image: url('/img/sidorova-irina.png');background-repeat: no-repeat;height: 210px;width: 178px;}
+
+.blue-btn {
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.blue-btn:hover {
+    text-decoration: none;
+    color: #acf1ff;
+}
+
+.map-wp {
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+

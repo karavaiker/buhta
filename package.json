@@ -1,0 +1,21 @@
+{
+  "name": "lebedinaya-buhta",
+  "version": "1.0.0",
+  "description": "landing-page",
+  "main": "index.js",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0"
+  },
+  "author": "v.krasnoselskikh <v.krasnoselskikh@properm.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "jshint-stylish": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
