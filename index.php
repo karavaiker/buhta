@@ -4,17 +4,10 @@
     <meta charset="UTF-8">
     <title>Лебединая бухта</title>
 
-    <link rel="stylesheet" href="css/libs/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/style.css">
-
-<!--    <script src="js/libs/jquery-3.1.0.min.js"></script>-->
-<!--    <script src="js/libs/jquery.validate.js"></script>-->
-<!--    <script src="js/main.js"></script>-->
-    <script src="/build/production.min.js"></script>
+    <link rel="stylesheet" href="/css/libs/bootstrap-grid.css">
     <link rel="stylesheet" href="/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/build/production.min.js"></script> 
 </head>
 <body>
 <header>
