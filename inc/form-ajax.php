@@ -45,9 +45,9 @@ $comments = trim($_POST['comment']);
 
 ////Если ошибок нет, отправить email
 if(!isset($hasError)) {
-    $emailTo = 'v.krasnoselskikh@properm.ru';
+    $emailTo = 'i.sidorova@perspectiva.ru';
     $body = "Имя: $name \n\nТелефон: $phone \n\nE-mail: $email \n\nКомментарий:\n $comments";
-    $subject = "Пользователь заказал показ";
+    $subject = "Пользователь заказал показ участкa в «Лебединой бухте»";
     $headers = 'From: Лебединая бухта (ЛП) <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
     mail($emailTo, $subject, $body, $headers);
     $emailSent = true;
