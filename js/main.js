@@ -18,7 +18,7 @@ $(document).ready(function() {
                        comment: forform.find('input[name="comment"]').val(),
                    }
                }).done(function (xhr) {
-                   $(this).html(xhr);
+                   forform.html(xhr);
                })
            }
 
