@@ -55,7 +55,7 @@
 
 <section class="grey-bg" style="margin-top: 45px;margin-bottom: 40px;">
     <div class="content">
-        <p class="headers">Участки в лебединой бухте специально для вас!</p>
+        <p class="headers">Участки в Лебединой бухте специально для Вас!</p>
     </div>
 </section>
 
