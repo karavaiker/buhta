@@ -380,7 +380,7 @@
                                 <p class="name-worker">Ирина Александровна <br> Сидорова</p>
                                 <p>+7 (342) 259 59 59</p>
                                 <p>+7 912 059 43 86</p>
-                                <p><a href="mailto:i.sidorova@perspectiva.ru"> i.sidorova@perspectiva.ru</a></p>
+                                <p><a href="mailto:i.sidorova@perspektiva.ru"> i.sidorova@perspektiva.ru</a></p>
                             </div>
                         </div>
                     </div>
