@@ -5,7 +5,8 @@
     <title>Лебединая бухта</title>
 
     <link rel="stylesheet" href="/css/libs/bootstrap-grid.css">
-    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/libs/owl.carousel.css" type="text/css" media="screen" />    
     <link rel="stylesheet" href="/css/style.css">
     <script src="/build/production.min.js"></script> 
 </head>
@@ -66,7 +67,21 @@
                     <div class="slider-wp">
                         <div class="slider-frame">
                             <div class="slider">
-                                <div class="slider-item" style="background-image: url('/img/slide.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slide.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/1.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/2.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/3.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/4.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/5.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/6.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/7.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/8.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/9.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/10.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/11.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/12.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/13.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/14.png');"></div>
                             </div>
                             <div class="slider-control">
                                 <div class="prev">&#9668;</div>

@@ -144,6 +144,8 @@ p.headers {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 }
 
 .slider-frame {
@@ -182,6 +184,7 @@ p.headers {
     right: 0;
     color: rgba(255, 255, 255, 0.39);
     font-size: 29px;
+    z-index: 9;
 }
 
 
@@ -193,7 +196,7 @@ p.headers {
     width: 42px;
     background: rgba(51, 51, 51, 0.81);
     border-radius: 26px;
-    right: 10px;
+    right: 15px;
     padding-left: 9px;
 }
 
@@ -206,7 +209,7 @@ p.headers {
     width: 42px;
     background: rgba(51, 51, 51, 0.81);
     border-radius: 26px;
-    left: 10px;
+    left: 15px;
     padding-left: 3px;
 }
 
@@ -525,4 +528,22 @@ label.error {
     max-width: 146px;
     display: block;
     margin: auto;
+}
+
+.header-wp {
+    background-image: url('/img/el-header.png');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    height: 365px;
+}
+
+.slider {
+    position: relative;
+    height: 432px;
+}
+
+.slider-item {
+    /* position: absolute; */
 }

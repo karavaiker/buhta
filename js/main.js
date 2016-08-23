@@ -3,6 +3,21 @@ $(document).ready(function() {
 
     $('input[name="phone"]').mask("+7(999) 999-99-99",{autoclear: true});
 
+    $(".slider").owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        items: 1
+    });
+    $('.slider-control .next').click(function() {
+        $(".slider").trigger('next.owl.carousel');
+    });
+
+    $('.slider-control .prev').click(function() {
+        $(".slider").trigger('prev.owl.carousel');
+    });
+
+
 
     $('input[type="submit"]').click(function () {
             var forform = $(this).parent('.form-order');
