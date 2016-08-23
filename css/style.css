@@ -6,7 +6,7 @@ header {
     height: 365px;
     background-image: url(/img/top-bg.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
 }
 
@@ -533,7 +533,7 @@ label.error {
 .header-wp {
     background-image: url('/img/el-header.png');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     color: black;
     height: 365px;
