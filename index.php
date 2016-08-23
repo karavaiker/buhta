@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="css/libs/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <script src="js/libs/jquery-3.1.0.min.js"></script>
-    <script src="js/libs/jquery.validate.js"></script>
-    <script src="js/main.js"></script>
+<!--    <script src="js/libs/jquery-3.1.0.min.js"></script>-->
+<!--    <script src="js/libs/jquery.validate.js"></script>-->
+<!--    <script src="js/main.js"></script>-->
+    <script src="/build/production.min.js"></script>
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
 </head>
 <body>
 <header>
@@ -31,7 +36,7 @@
                 <p class="contacts-area-phone">8-800-100-10-59</p>
                 <p class="contacts-area-phone">259-59-59</p>
                 <p class="contacts-area-address">ул. Ленина, 92<p>
-                <a href="#feed" class="contacts-area-btn blue-btn">Заказать показ</a>
+                <a href="#feed" class="contacts-area-btn blue-btn fancy-modal" rel="nofollow">Заказать показ</a>
             </div>
 
             <div class="header-prolog">Земельные участки в живописном месте</div>
@@ -87,7 +92,7 @@
                 <div class="col-sm-5">
                     <div class="form-feed-wp doted-form">
                         <div class="form-feed">
-                            <form action="javascript-void(0)" class="form-order">
+                            <form action="javascript:void(0);" class="form-order" id="form2">
                                 <div class="class-shadow-form">
                                     <div><label for="name">Имя:</label><div><input type="text" id="name" name="name"></div></div>
                                     <div><label for="phone">Телефон:</label><div><input type="text" id="phone" name="phone"></div></div>
@@ -156,7 +161,7 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <div class="plan-image"></div>
+                    <a class="plan-image fancy-modal" href="/img/plan.jpg"></a>
                 </div>
                 <div class="col-md-6">
                     <div class="plan-text">
@@ -212,7 +217,8 @@
                         наличный, безналичный расчет, рассрочка<br>
                         от застройщика, возможно оформление ипотеки.</p>
 
-                    <a href="#orderPresentation" class="blue-btn">Заказать показ</a>
+
+                    <a href="#feed" class="contacts-area-btn blue-btn fancy-modal" rel="nofollow">Заказать показ</a>
                 </div>
             </div>
         </div>
@@ -308,6 +314,7 @@
                             #map {
                                 height:350px;
                                 width:500px;
+                                border-radius: 20px;
                             }
                             .gm-style-iw * {
                                 display: block;
@@ -323,6 +330,7 @@
                         </style>
 
                         <div id='map'></div>
+                        <div id="map-shadow"></div>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -371,7 +379,7 @@
                 </div>
                 <div class="col-md-offset-1 col-md-4">
                     <div class="form-feed">
-                        <form action="javascript-void(0)" class="form-order">
+                        <form action="javascript:void(0);" class="form-order" id="form3">
                             <div class="class-shadow-form">
                                 <div><label for="name">Имя:</label><div><input type="text" id="name" name="name"></div></div>
                                 <div><label for="phone">Телефон:</label><div><input type="text" id="phone" name="phone"></div></div>
@@ -387,6 +395,23 @@
         </div>
     </div>
 </section>
+
+<div class="helpers">
+    <div id="feed">
+        <div class="form-feed">
+            <form action="javascript:void(0);" class="form-order" id="form1">
+                <div class="class-shadow-form">
+                    <div><label for="name">Имя:</label><div><input type="text" id="name" name="name"></div></div>
+                    <div><label for="phone">Телефон:</label><div><input type="text" id="phone" name="phone"></div></div>
+                    <div><label for="email">E-mail:</label><div><input type="text" id="email" name="email"></div></div>
+                    <div><label for="comment">Комментарий:</label><div><input type="text" id="comment" name="comment"></div></div>
+                </div>
+
+                <input type="submit" class="blue-btn" value="Заказать показ">
+            </form>
+        </div>
+    </div>
+</div>
 
 <footer>
     <div class="content">
