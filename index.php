@@ -67,21 +67,22 @@
                     <div class="slider-wp">
                         <div class="slider-frame">
                             <div class="slider">
-                                <div class="slider-item item" style="background-image: url('/img/slide.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/1.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/2.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/3.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/4.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/5.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/6.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/7.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/8.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/9.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/10.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/11.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/12.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/13.png');"></div>
-                                <div class="slider-item item" style="background-image: url('/img/slides/14.png');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slide.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/0.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/1.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/2.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/3.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/4.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/5.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/6.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/7.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/8.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/9.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/10.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/11.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/12.jpg');"></div>
+                                <div class="slider-item item" style="background-image: url('/img/slides/13.jpg');"></div>
+
                             </div>
                             <div class="slider-control">
                                 <div class="prev">&#9668;</div>
